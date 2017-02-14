@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on In-silico Blog</title>
+    <link>https://in-silico.github.io/blog/post/index.xml</link>
+    <description>Recent content in Post-rsses on In-silico Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MPL-2 license.</copyright>
+    <lastBuildDate>Tue, 14 Feb 2017 13:36:58 -0500</lastBuildDate>
+    <atom:link href="https://in-silico.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>rpc 2017 01</title>
+      <link>https://in-silico.github.io/blog/post/rpc-2017-01/</link>
+      <pubDate>Tue, 14 Feb 2017 13:36:58 -0500</pubDate>
+      
+      <guid>https://in-silico.github.io/blog/post/rpc-2017-01/</guid>
+      <description>
+
+&lt;h2 id=&#34;problemset&#34;&gt;Problemset&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/problems.pdf&#34;&gt;Conjunto de problemas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;a-blur&#34;&gt;A - Blur&lt;/h2&gt;
+
+&lt;p&gt;Dada la talla se puede simular exactamente lo que dice el enunciado.
+Para realizar todos los cálculos con aritmética entera se puede
+ignorar la división por 9. De esta manera la proporción entre todos
+los elementos se mantendrá.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/A.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;b-checkers&#34;&gt;B - Checkers&lt;/h2&gt;
+
+&lt;h2 id=&#34;c-class-time&#34;&gt;C - Class Time&lt;/h2&gt;
+
+&lt;p&gt;Para este problema es conveniente usar alguna clase con comparador o en su defecto
+un pair pero poniendo primero el apellido y luego el nombre.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/C.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;d-complexity&#34;&gt;D - Complexity&lt;/h2&gt;
+
+&lt;p&gt;El problema se reduce a eliminar la menor cantidad de letras de tal forma que
+queden máximo 2 letras diferentes.&lt;/p&gt;
+
+&lt;p&gt;Para esto podemos hallar la frecuencia de cada letra y ordenamos. La solución
+será entonces eliminar cada una de las letras que no sea una de las 2 más frecuetes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/D.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;e-coverage&#34;&gt;E - Coverage&lt;/h2&gt;
+
+&lt;h2 id=&#34;f-egg-drop&#34;&gt;F - Egg Drop&lt;/h2&gt;
+
+&lt;p&gt;Es muy importante notar que la entrada siempre será consistente, esto significa que los experimentos
+en los primeros pisos siempre serán &amp;ldquo;SAFE&amp;rdquo; y en los últimos pisos siempre serán &amp;ldquo;BROKEN&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Con esto en mente sólo necesitamos saber dónde está el &amp;ldquo;SAFE&amp;rdquo; más alto y el &amp;ldquo;BROKEN&amp;rdquo; más bajo.&lt;/p&gt;
+
+&lt;p&gt;El lugar más bajo donde el experimento &lt;em&gt;podría&lt;/em&gt; romperse será el piso siguiente al &amp;ldquo;SAFE&amp;rdquo; más alto.
+El lugar más bajo donde el experimento &lt;em&gt;podría&lt;/em&gt; salvase será el piso anterior al &amp;ldquo;BROKEN&amp;rdquo; más bajo.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/F.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;g-grid&#34;&gt;G - Grid&lt;/h2&gt;
+
+&lt;p&gt;Podemos ver este problema como un grafo en el cual el costo de la transición es constante. El camino
+mínimo en este caso puede ser encontrado usando &lt;a href=&#34;https://en.wikipedia.org/wiki/Breadth-first_search&#34;&gt;BFS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada nodo puede ser representado por la posición x, y de la matriz original y las transición está dada
+por los 4 vecinos que están a distancia grid(x, y)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/G.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;h-millonaire&#34;&gt;H - Millonaire&lt;/h2&gt;
+
+&lt;h2 id=&#34;i-racing-gems&#34;&gt;I - Racing Gems&lt;/h2&gt;
+
+&lt;h2 id=&#34;j-surf&#34;&gt;J - Surf&lt;/h2&gt;
+
+&lt;h2 id=&#34;k-you-shall-pass&#34;&gt;K - You Shall Pass&lt;/h2&gt;
+
+&lt;h2 id=&#34;l-turing-s-challenge&#34;&gt;L - Turing&amp;rsquo;s Challenge&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pin3da/Programming-contest/blob/master/solved/Others/RPC-2017-01/L.cc&#34;&gt;Solución C++&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡ Bienvenidos !</title>
+      <link>https://in-silico.github.io/blog/post/welcome/</link>
+      <pubDate>Sun, 05 Feb 2017 18:36:17 -0500</pubDate>
+      
+      <guid>https://in-silico.github.io/blog/post/welcome/</guid>
+      <description>&lt;p&gt;Este blog es una iniciativa del grupo in-silico para compartir las
+soluciones de algunas compentencias de programación, principalmente
+las de la Red de Programación competitiva.&lt;/p&gt;
+
+&lt;p&gt;¡ Bienvenidos !&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
